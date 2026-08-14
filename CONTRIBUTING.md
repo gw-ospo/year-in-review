@@ -16,7 +16,7 @@ We encourage you to read this project's CONTRIBUTING policy (you are here), its
 
 ## Getting Started
 
-<!--- TODO: If you have 'good-first-issue' or 'easy' labels for newcomers, mention them here.-->
+This repository will benefit from a major frontend code refactor of the [src/index.njk](src/index.njk) file. [Issue #6](https://github.com/DSACMS/year-in-review/issues/6)
 
 <!--
 ### Team Specific Guidelines
@@ -26,26 +26,50 @@ TODO: This section helps contributors understand any team structure in the proje
 
 ### Building dependencies
 
-<!--- TODO: This step is often skipped, so don't forget to include the steps needed to install on your platform. If you project can be multi-platform, this is an excellent place for first time contributors to send patches!-->
+This project has two parts: a static site (Node/Eleventy) and a Python script that generates the metrics data behind it.
+
+Prerequisites:
+
+- Node.js and npm
+- Python 3 and pip
+
+Install dependencies:
+
+```
+npm install
+pip install -r requirements.txt
+```
 
 ### Building the Project
 
-<!--- TODO: Be sure to include build scripts and instructions, not just the source code itself! -->
+To run the site locally:
+
+```
+npm run dev
+```
+
+This starts Eleventy in serve mode and rebuilds on changes.
+
+To generate a new metrics snapshot, you'll need a `GH_TOKEN` with read access to the org, then run:
+
+```
+export GH_TOKEN=<your_token>
+python3 scripts/generate_metrics.py <start_date> <end_date>
+```
+
+Dates use `YYYY-MM-DD` format. `end_date` is optional and defaults to today. The output is written to `metrics_data/data/`; update `DATA_FILE` in `src/metrics-data.js` to point the site at the new file.
 
 ### Workflow and Branching
 
-<!--- TODO: Workflow Example
-We follow the [GitHub Flow Workflow](https://guides.github.com/introduction/flow/)
+We follow the [GitHub Flow Workflow](https://guides.github.com/introduction/flow/):
 
-1.  Fork the project
-2.  Check out the `main` branch
-3.  Create a feature branch
-4.  Write code and tests for your change
-5.  From your branch, make a pull request against `{{ cookiecutter.project_org }}/{{ cookiecutter.project_repo_name }}/main`
-6.  Work with repo maintainers to get your change reviewed
-7.  Wait for your change to be pulled into `{{ cookiecutter.project_org }}/{{ cookiecutter.project_repo_name }}/main`
-8.  Delete your feature branch
--->
+1.  Fork the project (external contributors) or check out the `main` branch directly (project team members)
+2.  Create a feature branch
+3.  Write code for your change
+4.  From your branch, make a pull request against `DSACMS/year-in-review`'s `main` branch
+5.  Work with repo maintainers to get your change reviewed
+6.  Wait for your change to be merged into `main`
+7.  Delete your feature branch
 
 <!--
 ### Testing Conventions
@@ -54,6 +78,8 @@ TODO: Discuss where tests can be found, how they are run, and what kind of tests
 -->
 
 ### Coding Style and Linters
+
+_There is no current coding style for this repository._  
 
 <!--- TODO: HIGHLY ENCOURAGED. Specific tools will vary between different languages/frameworks (e.g. Black for python, eslint for JavaScript, etc...)
 
@@ -64,9 +90,6 @@ TODO: Discuss where tests can be found, how they are run, and what kind of tests
 -->
 
 ### Writing Issues
-
-<!---
-TODO: Example Issue Guides
 
 When creating an issue please try to adhere to the following format:
 
@@ -85,12 +108,9 @@ When creating an issue please try to adhere to the following format:
     List all relevant steps to reproduce the observed behavior.
 
     see our .github/ISSUE_TEMPLATE.md for more examples.
--->
 
-<!---
+
 ### Writing Pull Requests
-
-TODO: Pull request example
 
 Comments should be formatted to a width no greater than 80 columns.
 
@@ -127,12 +147,9 @@ Some important notes regarding the summary line:
 * Prefix the subject with its scope
 
     see our .github/PULL_REQUEST_TEMPLATE.md for more examples.
--->
 
-<!---
+
 ## Code Review
-
-TODO: Code Review Example
 
 The repository on GitHub is kept in sync with an internal repository at
 github.cms.gov. For the most part this process should be transparent to the
@@ -152,9 +169,9 @@ request will be closed.
 
 The changes in the pull request will be collapsed into a single commit, but the
 authorship metadata will be preserved.
--->
 
-## Shipping Releases
+
+<!-- ## Shipping Releases -->
 
 <!-- TODO: What cadence does your project ship new releases? (e.g. one-time, ad-hoc, periodically, upon merge of new patches) Who does so? Below is a sample template you can use to provide this information.
 
@@ -389,6 +406,24 @@ TODO: Documentation Example
 We also welcome improvements to the project documentation or to the existing
 docs. Please file an [issue]({{ cookiecutter.project_org }}/{{ cookiecutter.project_repo_name }}/issues).
 -->
+
+## AI Usage
+
+AI tools *(LLMs, coding assistants)* are welcome as part of your contribution workflow, but they don't change who's responsible for the code you submit.
+
+### Recommended uses
+
+- Gaining understanding of the existing code, or solution ideas of the issue
+- Translating or proofreading your comments or PR descriptions while keep the wording as close as possible to what you originally wrote
+
+Whenever you use AI in any of these ways, disclose it explicitly in your PR description.
+
+### Not recommended uses
+
+- External AI tooling *(bots, agents)* directly interacting with the project, including creating issues, opening PRs, or commenting on GitHub
+- Submitting AI generated code you can't explain line by line to a developer, or using AI output without fully understanding it or verifying it's the correct approach
+- Submitting a PR where the effort you put in, such as writing a prompt, is less than the effort it would take a maintainer to review it. We can already write prompts or run automated tools ourselves and doing that directly is faster and more secure than reviewing a low effort PR.
+- Using AI to increase the breadth of your contributions, such as spreading yourself across several projects at once. You provide more value by engaging deeply with one or two projects than shallowly with many.
 
 ## Policies
 
