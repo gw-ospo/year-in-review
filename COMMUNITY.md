@@ -1,6 +1,6 @@
 # COMMUNITY.md
 
-{{ cookiecutter.project_repo_name }} is supported by a dedicated team of individuals fulfilling various roles to ensure its success, security, and alignment with government standards and agency goals.
+Year-in-Review is supported by a dedicated team of individuals fulfilling various roles to ensure its success, security, and alignment with government standards and agency goals.
 
 ## Project Members
 
@@ -10,9 +10,11 @@ Roles to include, but not limited to: Project Owner, Technical Lead, Developers/
 
 | Role   | Name    | Affiliation    |
 | :----- | :------ | :------------- |
-| Engineer | Kiran Sheikh | CIF Software Engineering Fellow |
-| Engineer | Zion Muhammud | CIF Software Engineering Fellow |
-| Engineer | Isaac Guzman | CIF Software Engineering Fellow |
+| Maintainer | Remy DeCausemaker | Open Source Lead |
+| Maintainer | Dinne Kopelevich | Open Source Software Engineer |
+| Developer | Kiran Sheikh | CIF26 Software Engineering Fellow |
+| Developer | Zion Muhammud | CIF26 Software Engineering Fellow |
+| Developer | Isaac Guzman | CIF26 Software Engineering Fellow |
 
 <!-- TODO: A CODEOWNERS.md file is available in .github to define individuals responsible for specific parts of the codebase. Provide a reference to this file if used:
 
@@ -25,11 +27,13 @@ See [CODEOWNERS.md](.github/CODEOWNERS.md) for a list of those responsible for t
 The members of {{ cookiecutter.project_repo_name }} community are responsible for guiding its development, ensuring quality standards, and fostering a collaborative environment. They play a vital role in making decisions about code contributions, handling releases, and ensuring the project meets its goals and objectives. Below is a list of the key members and their specific roles and responsibilities.
 -->
 
-<!--
-### Maintainers:
 
-TODO: List the individuals who are the maintainers. What groups/domains are maintainers a part of? Does your project have domains/areas that are maintained by specific people? List @USERNAMES directly, or any @ALIASES for groups/teams.
--->
+### Maintainers
+
+Open Source Program Office:
+* @decause-gov
+* @DinneK
+
 
 <!--
 ### Approvers:
@@ -66,17 +70,20 @@ TODO: A list of CONTRIBUTORS is generated below using contributors.yml located i
 <!-- readme: contributors -start -->
 <!-- readme: contributors -end -->
 
-<!--
+
 ### Alumni
 
-TODO: Who are the past maintainers or contributors who previously played significant roles in this project who are no longer actively involved? Consider including their roles and dates for context.
-
 We'd like to acknowledge the following individuals for their past contributions of this project:
--->
 
-## {{ cookiecutter.project_name }} Open Source Community Guidelines
+Coding it Forward '26 Team:
+* @kmsheikh
+* @isaac-rtc
+* @zionmich
 
-This document contains principles and guidelines for participating in the {{ cookiecutter.project_name }} open source community.
+
+## Year-in-Review Open Source Community Guidelines
+
+This document contains principles and guidelines for participating in the Year-in-Review open source community.
 
 ### Principles
 

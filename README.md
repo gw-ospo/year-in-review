@@ -1,60 +1,54 @@
-# {{ cookiecutter.project_name }}
+# Year-in-Review
 
-{{ cookiecutter.project_description }}
+Generates a prototype "Year in Review" report of Open Source activity and impact in the public DSACMS GitHub organization.
 
 ## About the Project
-<!-- TODO: Write an about statement for this project. -->
+
+This repository calculates GitHub metrics from publicly available data and turns them into a scrollable page with fun animations, celebrating and rewarding the people who contribute to DSACMS's open source projects.
 
 ### Project Vision
 <!-- TODO: What is the vision for this project? -->
+It's the vision of this project to provide a comprehensive, performant, and trustworthy platform to transform the way that the CMS enterprise shares and uses data.
 
 ### Project Mission
 <!-- TODO: Write a mission statement for this project. -->
+The goal of the project is to prototype a Year-in-Review website to highlight yearly Open Source achievements at DSACMS. The inspiration for this project comes from other Open Source offices with similar initiatives to share and inspire Open Source collaboration.
 
 ### Agency Mission
 <!-- TODO: Must include since this is an agency-led project -->
+This aligns with the overarching mission to enable the CMS Enterprise to drive innovation in data sharing so that beneficiaries and their healthcare partners have the data they need to make informed decisions about their healthcare.
 
 ### Team Mission
 <!-- TODO: Must include since this is an agency-led project -->
+This aligns with the mission of the Open Source Program Office to define and implement programs, policies, and projects that guide organizational open source efforts.
 
 ## Core Team
 
 A list of core team members responsible for the code and documentation in this repository can be found in [COMMUNITY.md](COMMUNITY.md).
 
-<!--
+
 ## Repository Structure
 
-TODO: Including the repository structure helps viewers quickly understand the project layout. Using the "tree -d" command can be a helpful way to generate this information, but, be sure to update it as the project evolves and changes over time.
-
-To install the tree command:
-In the command line
-- MacOS: 
 ```
-brew install tree
-```
-
-- Linux: 
-```
-sudo apt-get update
-sudo apt-get install tree
+.
+├── github_metrics.py
+├── scripts/
+│   └── generate_metrics.py
+├── metrics_data/
+│   └── data/
+└── src/
+    ├── index.njk
+    ├── metrics-data.js
+    └── _includes/
 ```
 
-Windows:
-```
-choco install tree
-```
+- `github_metrics.py` pulls commit, contributor, star, watcher, fork, and merged-PR counts from the GitHub API.
+- `scripts/generate_metrics.py` is the CLI entrypoint that runs `github_metrics.py` for a date range and writes a JSON snapshot.
+- `metrics_data/data/` holds those JSON snapshots. `src/metrics-data.js` picks one (via `DATA_FILE`) to populate the static site.
 
-**{list directories and descriptions}**
 
-TODO: Add a 'table of contents" for your documentation. Tier 0/1 projects with simple README.md files without many sections may or may not need this, but it is still extremely helpful to provide "bookmark" or "anchor" links to specific sections of your file to be referenced in tickets, docs, or other communication channels.
-
-**{list of .md at top directory and descriptions}**
-
--->
-
-<!-- TODO
 ## Development and Software Delivery Lifecycle
-This section provides an overview of how this project typically manages code changes and delivers software updates. It is intended to help contributors understand the general flow of work, not to set mandatory procedures. Programs and teams may adjust these practices to meet their own requirements, governance structures, or release schedules.
+<!-- This section provides an overview of how this project typically manages code changes and delivers software updates. It is intended to help contributors understand the general flow of work, not to set mandatory procedures. Programs and teams may adjust these practices to meet their own requirements, governance structures, or release schedules. -->
 
 Project team members with write access work directly in this repository. External contributors follow the same general workflow but submit changes through a fork and cannot merge their own pull requests. Additional guidance for contributing is available in:
 [CONTRIBUTING.md](./CONTRIBUTING.md).
@@ -64,13 +58,36 @@ This project aligns with the organization’s common approach to versioning, pre
 [Release Guidelines (OSPO Guide)](https://dsacms.github.io/ospo-guide/outbound/release-guidelines/)
 
 These guidelines outline agency-wide expectations for semantic versioning, release candidates, GitHub releases, and associated review and communication practices. Individual projects may follow this model in full or tailor it to their operational needs.
--->
+
 
 ## Local Development
 
-<!--- TODO - with example below:
-This project is a monorepo with several apps. Please see the [api](./api/README.md) and [frontend](./frontend/README.md) READMEs for information on spinning up those projects locally. Also see the project [documentation](./documentation) for more info.
--->
+Install dependencies, then run the site:
+
+```
+npm install
+npm run dev
+```
+
+This starts Eleventy in serve mode and rebuilds on changes.
+
+To generate a new metrics snapshot, install the Python dependencies, set a `GH_TOKEN` with access to the org, then run:
+
+```
+pip install -r requirements.txt
+export GH_TOKEN=<your_token>
+python3 scripts/generate_metrics.py <start_date> <end_date>
+```
+
+Dates use `YYYY-MM-DD` format, e.g.:
+
+```
+export GH_TOKEN=<your_token>
+python3 scripts/generate_metrics.py 2025-08-07 2026-08-07
+```
+
+`end_date` is optional and defaults to today. The output is written to `metrics_data/data/`; update `DATA_FILE` in [src/metrics-data.js](src/metrics-data.js) to point the site at the new file.
+
 
 ## Coding Style and Linters
 
@@ -109,7 +126,7 @@ We also recognize capacity building as a key part of involving a diverse open so
 
 ### Community Guidelines
 
-Principles and guidelines for participating in our open source community are can be found in [COMMUNITY.md](COMMUNITY.md). Please read them before joining or starting a conversation in this repo or one of the channels listed below. All community members and participants are expected to adhere to the community guidelines and code of conduct when participating in community spaces including: code repositories, communication channels and venues, and events.
+Principles and guidelines for participating in our open source community can be found in [COMMUNITY.md](COMMUNITY.md). Please read them before joining or starting a conversation in this repo or one of the channels listed below. All community members and participants are expected to adhere to the community guidelines and code of conduct when participating in community spaces including: code repositories, communication channels and venues, and events.
 
 <!--
 ## Governance
