@@ -1,0 +1,680 @@
+{
+  "period": {
+    "start": "2025-08-01",
+    "end": "2026-08-01"
+  },
+  "generated_at": "2026-09-14T14:42:16.320948+00:00",
+  "total_repo_count": 27,
+  "repos": [
+    {
+      "name": ".github",
+      "url": "https://github.com/gw-ospo/.github",
+      "description": null,
+      "errors": [],
+      "total_commit_count": 0,
+      "commits_per_week": {},
+      "contributors": [],
+      "committer_count": 0,
+      "stargazers_count": 0,
+      "watchers_count": 2,
+      "forks_count": 0,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "jupyter-book-template",
+      "url": "https://github.com/gw-ospo/jupyter-book-template",
+      "description": null,
+      "errors": [],
+      "total_commit_count": 0,
+      "commits_per_week": {},
+      "contributors": [],
+      "committer_count": 0,
+      "stargazers_count": 1,
+      "watchers_count": 4,
+      "forks_count": 0,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "community",
+      "url": "https://github.com/gw-ospo/community",
+      "description": "A repository for the discussion forum, and community building activities",
+      "errors": [],
+      "total_commit_count": 0,
+      "commits_per_week": {},
+      "contributors": [],
+      "committer_count": 0,
+      "stargazers_count": 2,
+      "watchers_count": 4,
+      "forks_count": 1,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "oss-licensing",
+      "url": "https://github.com/gw-ospo/oss-licensing",
+      "description": "A short course on Open Source Software Licensing Essentials for Research and Education",
+      "errors": [],
+      "total_commit_count": 0,
+      "commits_per_week": {},
+      "contributors": [],
+      "committer_count": 0,
+      "stargazers_count": 7,
+      "watchers_count": 4,
+      "forks_count": 2,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "quarto-manuscript-template",
+      "url": "https://github.com/gw-ospo/quarto-manuscript-template",
+      "description": null,
+      "errors": [],
+      "total_commit_count": 0,
+      "commits_per_week": {},
+      "contributors": [],
+      "committer_count": 0,
+      "stargazers_count": 1,
+      "watchers_count": 4,
+      "forks_count": 0,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "quarto-python-autodoc-template",
+      "url": "https://github.com/gw-ospo/quarto-python-autodoc-template",
+      "description": null,
+      "errors": [],
+      "total_commit_count": 0,
+      "commits_per_week": {},
+      "contributors": [],
+      "committer_count": 0,
+      "stargazers_count": 0,
+      "watchers_count": 4,
+      "forks_count": 0,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "quarto-book-template",
+      "url": "https://github.com/gw-ospo/quarto-book-template",
+      "description": null,
+      "errors": [],
+      "total_commit_count": 0,
+      "commits_per_week": {},
+      "contributors": [],
+      "committer_count": 0,
+      "stargazers_count": 0,
+      "watchers_count": 4,
+      "forks_count": 0,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "python-dev-tools-workshop-2024",
+      "url": "https://github.com/gw-ospo/python-dev-tools-workshop-2024",
+      "description": "Local Development Tools for Python Programming",
+      "errors": [],
+      "total_commit_count": 0,
+      "commits_per_week": {},
+      "contributors": [],
+      "committer_count": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "version-control-workshop-2024",
+      "url": "https://github.com/gw-ospo/version-control-workshop-2024",
+      "description": "Version Control Basics (Collaborating through Code)",
+      "errors": [],
+      "total_commit_count": 0,
+      "commits_per_week": {},
+      "contributors": [],
+      "committer_count": 0,
+      "stargazers_count": 1,
+      "watchers_count": 0,
+      "forks_count": 1,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "institutional-innovation-grapher",
+      "url": "https://github.com/gw-ospo/institutional-innovation-grapher",
+      "description": "This repository contains scripts for collecting and analyzing data about open source activity associated with a university or institution",
+      "errors": [],
+      "total_commit_count": 0,
+      "commits_per_week": {},
+      "contributors": [],
+      "committer_count": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "organizing-python-apps-workshop-2024",
+      "url": "https://github.com/gw-ospo/organizing-python-apps-workshop-2024",
+      "description": "Organizing Code for Python Applications",
+      "errors": [],
+      "total_commit_count": 0,
+      "commits_per_week": {},
+      "contributors": [],
+      "committer_count": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "open-science-workshop-2024",
+      "url": "https://github.com/gw-ospo/open-science-workshop-2024",
+      "description": null,
+      "errors": [],
+      "total_commit_count": 0,
+      "commits_per_week": {},
+      "contributors": [],
+      "committer_count": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "gw-open-source-stickers",
+      "url": "https://github.com/gw-ospo/gw-open-source-stickers",
+      "description": "Stickers made by the community that anyone can download and print",
+      "errors": [],
+      "total_commit_count": 1,
+      "commits_per_week": {
+        "2026-W07": 1
+      },
+      "contributors": [
+        {
+          "name": "david-lippert",
+          "location": "Arlington, Virginia",
+          "company": "George Washington University",
+          "commit_count": 1,
+          "is_new": false
+        }
+      ],
+      "committer_count": 1,
+      "stargazers_count": 2,
+      "watchers_count": 0,
+      "forks_count": 3,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "quality-control-workshop-2024",
+      "url": "https://github.com/gw-ospo/quality-control-workshop-2024",
+      "description": "Software Quality Control Workshop in Python",
+      "errors": [],
+      "total_commit_count": 0,
+      "commits_per_week": {},
+      "contributors": [],
+      "committer_count": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "open_source_survey_results",
+      "url": "https://github.com/gw-ospo/open_source_survey_results",
+      "description": "A Quarto site for presenting results from Open Source Program Office surveys",
+      "errors": [],
+      "total_commit_count": 0,
+      "commits_per_week": {},
+      "contributors": [],
+      "committer_count": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "gwoscon2025",
+      "url": "https://github.com/gw-ospo/gwoscon2025",
+      "description": "publicly available details about the George Washington Open Source Conference for 2025",
+      "errors": [],
+      "total_commit_count": 0,
+      "commits_per_week": {},
+      "contributors": [],
+      "committer_count": 0,
+      "stargazers_count": 3,
+      "watchers_count": 6,
+      "forks_count": 8,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "version-control-tutorial",
+      "url": "https://github.com/gw-ospo/version-control-tutorial",
+      "description": null,
+      "errors": [],
+      "total_commit_count": 0,
+      "commits_per_week": {},
+      "contributors": [],
+      "committer_count": 0,
+      "stargazers_count": 1,
+      "watchers_count": 0,
+      "forks_count": 0,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "open-source-workshop",
+      "url": "https://github.com/gw-ospo/open-source-workshop",
+      "description": "GW LAI Workshop - Join the Revolution: Open Source for Everyone",
+      "errors": [],
+      "total_commit_count": 32,
+      "commits_per_week": {
+        "2026-W06": 5,
+        "2025-W37": 17,
+        "2025-W36": 8,
+        "2026-W11": 1,
+        "2025-W45": 1
+      },
+      "contributors": [
+        {
+          "name": "Vaishalij77",
+          "location": null,
+          "company": null,
+          "commit_count": 1,
+          "is_new": true
+        },
+        {
+          "name": "barah123",
+          "location": "United States of America",
+          "company": "GW University ",
+          "commit_count": 1,
+          "is_new": true
+        },
+        {
+          "name": "TayloredSuites",
+          "location": null,
+          "company": null,
+          "commit_count": 1,
+          "is_new": true
+        },
+        {
+          "name": "thomasrachko93",
+          "location": null,
+          "company": null,
+          "commit_count": 1,
+          "is_new": true
+        },
+        {
+          "name": "marianagranadosc",
+          "location": null,
+          "company": null,
+          "commit_count": 1,
+          "is_new": true
+        },
+        {
+          "name": "MiaDiewald",
+          "location": null,
+          "company": null,
+          "commit_count": 1,
+          "is_new": true
+        },
+        {
+          "name": "BurtMacklin324",
+          "location": null,
+          "company": "The George Washington University",
+          "commit_count": 1,
+          "is_new": true
+        },
+        {
+          "name": "david-lippert",
+          "location": "Arlington, Virginia",
+          "company": "George Washington University",
+          "commit_count": 2,
+          "is_new": true
+        },
+        {
+          "name": "elyazidine",
+          "location": null,
+          "company": null,
+          "commit_count": 4,
+          "is_new": true
+        },
+        {
+          "name": "joodalfadhel",
+          "location": "washington, d.c.",
+          "company": "George Washington University ",
+          "commit_count": 7,
+          "is_new": true
+        },
+        {
+          "name": "Sunilshah-7",
+          "location": "Arlington, VA",
+          "company": "George Washington University",
+          "commit_count": 12,
+          "is_new": true
+        }
+      ],
+      "committer_count": 11,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "forks_count": 12,
+      "merged_pr_count": 10,
+      "data_complete": true
+    },
+    {
+      "name": "os-challenge",
+      "url": "https://github.com/gw-ospo/os-challenge",
+      "description": "interactive drag & drop game to test your knowledge of open source.",
+      "errors": [],
+      "total_commit_count": 6,
+      "commits_per_week": {
+        "2025-W39": 5,
+        "2025-W40": 1
+      },
+      "contributors": [
+        {
+          "name": "david-lippert",
+          "location": "Arlington, Virginia",
+          "company": "George Washington University",
+          "commit_count": 6,
+          "is_new": true
+        }
+      ],
+      "committer_count": 1,
+      "stargazers_count": 1,
+      "watchers_count": 0,
+      "forks_count": 1,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "curioss-patterns",
+      "url": "https://github.com/gw-ospo/curioss-patterns",
+      "description": "A public repository for the CURIOSS Patterns Practice",
+      "errors": [],
+      "total_commit_count": 185,
+      "commits_per_week": {
+        "2025-W47": 1,
+        "2026-W06": 6,
+        "2025-W45": 47,
+        "2025-W41": 16,
+        "2025-W43": 5,
+        "2025-W35": 3,
+        "2025-W38": 2,
+        "2025-W39": 3,
+        "2025-W44": 38,
+        "2025-W30": 4,
+        "2025-W33": 14,
+        "2025-W34": 12,
+        "2025-W46": 31,
+        "2025-W49": 3
+      },
+      "contributors": [
+        {
+          "name": "joodalfadhel",
+          "location": "washington, d.c.",
+          "company": "George Washington University ",
+          "commit_count": 5,
+          "is_new": true
+        },
+        {
+          "name": "rosemarypauley",
+          "location": null,
+          "company": "@gwuniversity",
+          "commit_count": 5,
+          "is_new": true
+        },
+        {
+          "name": "MiaDiewald",
+          "location": null,
+          "company": null,
+          "commit_count": 6,
+          "is_new": true
+        },
+        {
+          "name": "fvera02",
+          "location": null,
+          "company": "Stanford University",
+          "commit_count": 8,
+          "is_new": true
+        },
+        {
+          "name": "david-lippert",
+          "location": "Arlington, Virginia",
+          "company": "George Washington University",
+          "commit_count": 2,
+          "is_new": false
+        },
+        {
+          "name": "Sunilshah-7",
+          "location": "Arlington, VA",
+          "company": "George Washington University",
+          "commit_count": 9,
+          "is_new": true
+        },
+        {
+          "name": "elyazidine",
+          "location": null,
+          "company": null,
+          "commit_count": 12,
+          "is_new": true
+        },
+        {
+          "name": "CharlotteCurioss",
+          "location": null,
+          "company": null,
+          "commit_count": 44,
+          "is_new": true
+        },
+        {
+          "name": "CiaraFlanagan",
+          "location": null,
+          "company": null,
+          "commit_count": 94,
+          "is_new": false
+        }
+      ],
+      "committer_count": 9,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0,
+      "merged_pr_count": 1,
+      "data_complete": true
+    },
+    {
+      "name": "os-research-game",
+      "url": "https://github.com/gw-ospo/os-research-game",
+      "description": "interactive drag & drop game to assess research participants knowledge of open source.",
+      "errors": [
+        "Stats not ready for os-research-game after 30s, skipping"
+      ],
+      "total_commit_count": 0,
+      "commits_per_week": {},
+      "contributors": [],
+      "committer_count": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0,
+      "merged_pr_count": 0,
+      "data_complete": false
+    },
+    {
+      "name": "gwoscon2026",
+      "url": "https://github.com/gw-ospo/gwoscon2026",
+      "description": "publicly available details about the George Washington Open Source Conference for 2026",
+      "errors": [
+        "Stats not ready for gwoscon2026 after 30s, skipping"
+      ],
+      "total_commit_count": 0,
+      "commits_per_week": {},
+      "contributors": [],
+      "committer_count": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0,
+      "merged_pr_count": 0,
+      "data_complete": false
+    },
+    {
+      "name": "oscon-openart",
+      "url": "https://github.com/gw-ospo/oscon-openart",
+      "description": "GW LAI Workshop - Join the Revolution: Open Source for Everyone",
+      "errors": [
+        "Stats not ready for oscon-openart after 30s, skipping"
+      ],
+      "total_commit_count": 0,
+      "commits_per_week": {},
+      "contributors": [],
+      "committer_count": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "forks_count": 2,
+      "merged_pr_count": 1,
+      "data_complete": false
+    },
+    {
+      "name": "C4GT",
+      "url": "https://github.com/gw-ospo/C4GT",
+      "description": "C4GT aims to build active open-source community around DPGs for sustainable DPI implementations",
+      "errors": [],
+      "total_commit_count": 17,
+      "commits_per_week": {
+        "2026-W12": 5,
+        "2025-W33": 1,
+        "2026-W04": 2,
+        "2026-W06": 1,
+        "2026-W09": 2,
+        "2026-W11": 6
+      },
+      "contributors": [
+        {
+          "name": "david-lippert",
+          "location": "Arlington, Virginia",
+          "company": "George Washington University",
+          "commit_count": 1,
+          "is_new": true
+        },
+        {
+          "name": "parthshukla93",
+          "location": "New Delhi",
+          "company": null,
+          "commit_count": 1,
+          "is_new": true
+        },
+        {
+          "name": "bhanuprabhas",
+          "location": "Hyderabad",
+          "company": null,
+          "commit_count": 5,
+          "is_new": true
+        },
+        {
+          "name": "Sunilshah-7",
+          "location": "Arlington, VA",
+          "company": "George Washington University",
+          "commit_count": 10,
+          "is_new": true
+        }
+      ],
+      "committer_count": 4,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "un-reboot-the-earth-contribution",
+      "url": "https://github.com/gw-ospo/un-reboot-the-earth-contribution",
+      "description": "GW Hackathon Open Source Workshop - p5.js contribution",
+      "errors": [
+        "Stats not ready for un-reboot-the-earth-contribution after 30s, skipping"
+      ],
+      "total_commit_count": 0,
+      "commits_per_week": {},
+      "contributors": [],
+      "committer_count": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0,
+      "merged_pr_count": 0,
+      "data_complete": false
+    },
+    {
+      "name": "year-in-review",
+      "url": "https://github.com/gw-ospo/year-in-review",
+      "description": "Generate a prototype \"Year in Review\" report of the OSPO's activity and impact.",
+      "errors": [],
+      "total_commit_count": 7,
+      "commits_per_week": {
+        "2026-W25": 1,
+        "2026-W29": 6
+      },
+      "contributors": [
+        {
+          "name": "DinneK",
+          "location": "Denver, CO",
+          "company": "DSAC(Work), GSA (work) + personal projects",
+          "commit_count": 1,
+          "is_new": true
+        },
+        {
+          "name": "isaac-rtc",
+          "location": "New York, NY",
+          "company": null,
+          "commit_count": 1,
+          "is_new": true
+        },
+        {
+          "name": "kmsheikh",
+          "location": "Los Angeles, CA",
+          "company": null,
+          "commit_count": 5,
+          "is_new": true
+        }
+      ],
+      "committer_count": 3,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "gwospo-design",
+      "url": "https://github.com/gw-ospo/gwospo-design",
+      "description": null,
+      "errors": [],
+      "total_commit_count": 0,
+      "commits_per_week": {},
+      "contributors": [],
+      "committer_count": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0,
+      "merged_pr_count": 0,
+      "data_complete": true
+    }
+  ],
+  "top_repos_by_commits": [
+    "curioss-patterns",
+    "open-source-workshop",
+    "C4GT",
+    "year-in-review",
+    "os-challenge",
+    "gw-open-source-stickers",
+    ".github",
+    "jupyter-book-template",
+    "community",
+    "oss-licensing"
+  ]
+}

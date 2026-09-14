@@ -60,7 +60,7 @@ def main() -> None:
         print("Error: GitHub token not found. Please set GH_TOKEN or REPOLINTER_AUTO_TOKEN environment variable.")
         sys.exit(1)
 
-    org_name = os.getenv("ORG_NAME", "DSACMS")
+    org_name = os.getenv("ORG_NAME", "gw-ospo")
 
     output_dir = "metrics_data/data"
     os.makedirs(output_dir, exist_ok=True)
