@@ -19,7 +19,7 @@ def parse_dates(value: str, label: str) -> str:
         raise ValueError(
             f"Invalid {label} date format: '{value}'. Expected format: YYYY-MM-DD"
         )
-    return value
+    return value 
 
 
 def main() -> None:
