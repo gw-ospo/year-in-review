@@ -1,0 +1,23 @@
+# GW OSPOS PROJECT REGISTRY
+# one entry per line
+# "owner/repo" for a single repo,
+# org (no slash) to include an org and every public repo under it.
+# Used by scripts/generate_metrics.py in place of ORG_NAME-based org scanning.
+gw-ospo
+barah123/canis_lupus2.0
+Kalaga-Studio/danger-detection-with-ml
+sameerbatra1/Skill-Extraction-Tool-with-Reasoning
+omicsEye/deepBreaks
+surveydown-dev/surveydown
+joey-kilgore/SimLogger
+gwu-libraries/python-camp
+SMTorg/SMT
+Jithendra-k/EGRET
+jhelvy/logitr
+jhelvy/renderthis
+jhelvy/cbcTools
+mmann1123/pyGIS
+barbagroup/AeroPython
+barbagroup/CFDPython
+s2t2/gwu-courses-py
+barbagroup

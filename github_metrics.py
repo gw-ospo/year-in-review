@@ -331,11 +331,38 @@ class GithubMetrics:
     # ---- Orchestration -------------------------------------------------------
 
     def get_data(self, org_name):
-        try:
-            org = self.g.get_organization(org_name)
-        except Exception as e:
-            print(f"Error getting organization {org_name}: {e}")
-            raise
+        # If a project registry file is present, use it instead of scanning
+        # org_name's repos - one entry per line, either "owner/repo" (a
+        # single repo) or a  org (every public repo under it).
+        registry_path = "metrics_data/project_registry.txt"
+        repos = []
+        if os.path.exists(registry_path):
+            with open(registry_path) as f:
+                entries = [line.strip() for line in f if line.strip() and not line.startswith("#")]
+            for entry in entries:
+                self._check_rate_limit()
+                try:
+                    fetched = (
+                        [self.g.get_repo(entry)] if "/" in entry
+                        else self.g.get_organization(entry).get_repos(type="public")
+                    )
+                except Exception as e:
+                    print(f"Error getting {entry}: {e}")
+                    continue
+                for repo in fetched:
+                    self._check_rate_limit()
+                    if not repo.archived:  # archived repos don't count toward this year's review
+                        repos.append(repo)
+        else:
+            try:
+                org = self.g.get_organization(org_name)
+            except Exception as e:
+                print(f"Error getting organization {org_name}: {e}")
+                raise
+            for repo in org.get_repos(type="public"):
+                self._check_rate_limit()
+                if not repo.archived:  # archived repos don't count toward this year's review
+                    repos.append(repo)
 
         data = {
             "period": {"start": self.log_history_start, "end": self.log_history_end},
@@ -343,12 +370,6 @@ class GithubMetrics:
             "total_repo_count": 0,
             "repos": [],
         }
-
-        repos = []
-        for repo in org.get_repos(type="public"):
-            self._check_rate_limit()
-            if not repo.archived:  # archived repos don't count toward this year's review
-                repos.append(repo)
 
         total_repos = 0
         for repo in repos:

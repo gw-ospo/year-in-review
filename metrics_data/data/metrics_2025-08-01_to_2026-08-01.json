@@ -3,8 +3,8 @@
     "start": "2025-08-01",
     "end": "2026-08-01"
   },
-  "generated_at": "2026-09-14T14:42:16.320948+00:00",
-  "total_repo_count": 27,
+  "generated_at": "2026-09-23T16:30:11.220296+00:00",
+  "total_repo_count": 44,
   "repos": [
     {
       "name": ".github",
@@ -401,29 +401,84 @@
       "url": "https://github.com/gw-ospo/curioss-patterns",
       "description": "A public repository for the CURIOSS Patterns Practice",
       "errors": [],
-      "total_commit_count": 185,
+      "total_commit_count": 320,
       "commits_per_week": {
-        "2025-W47": 1,
-        "2026-W06": 6,
+        "2026-W21": 23,
+        "2026-W15": 3,
+        "2026-W07": 5,
+        "2025-W44": 33,
+        "2025-W43": 2,
         "2025-W45": 47,
-        "2025-W41": 16,
-        "2025-W43": 5,
+        "2026-W09": 1,
+        "2026-W12": 9,
         "2025-W35": 3,
         "2025-W38": 2,
         "2025-W39": 3,
-        "2025-W44": 38,
+        "2026-W13": 4,
+        "2026-W17": 7,
+        "2026-W18": 42,
+        "2026-W19": 8,
+        "2026-W20": 10,
+        "2026-W23": 1,
+        "2026-W27": 9,
+        "2026-W10": 29,
+        "2026-W16": 9,
         "2025-W30": 4,
         "2025-W33": 14,
         "2025-W34": 12,
         "2025-W46": 31,
-        "2025-W49": 3
+        "2025-W49": 3,
+        "2026-W11": 3,
+        "2026-W22": 3
       },
       "contributors": [
+        {
+          "name": "LauraLangdon",
+          "location": "SF Bay Area",
+          "company": "OSPO @ UC",
+          "commit_count": 1,
+          "is_new": true
+        },
+        {
+          "name": "kefortney",
+          "location": "Burlington, VT",
+          "company": "University of Vermont",
+          "commit_count": 1,
+          "is_new": true
+        },
+        {
+          "name": "virginiascarlett",
+          "location": "Santa Barbara, CA, USA",
+          "company": "University of California, Santa Barbara",
+          "commit_count": 1,
+          "is_new": true
+        },
+        {
+          "name": "Sunilshah-7",
+          "location": "Arlington, VA",
+          "company": "George Washington University",
+          "commit_count": 1,
+          "is_new": true
+        },
+        {
+          "name": "elyazidine",
+          "location": null,
+          "company": null,
+          "commit_count": 1,
+          "is_new": true
+        },
+        {
+          "name": "MiaDiewald",
+          "location": null,
+          "company": null,
+          "commit_count": 1,
+          "is_new": true
+        },
         {
           "name": "joodalfadhel",
           "location": "washington, d.c.",
           "company": "George Washington University ",
-          "commit_count": 5,
+          "commit_count": 3,
           "is_new": true
         },
         {
@@ -434,10 +489,10 @@
           "is_new": true
         },
         {
-          "name": "MiaDiewald",
-          "location": null,
-          "company": null,
-          "commit_count": 6,
+          "name": "dpshelio",
+          "location": "London",
+          "company": "@UCL-ARC",
+          "commit_count": 8,
           "is_new": true
         },
         {
@@ -448,42 +503,28 @@
           "is_new": true
         },
         {
-          "name": "david-lippert",
-          "location": "Arlington, Virginia",
-          "company": "George Washington University",
-          "commit_count": 2,
+          "name": "RichardLitt",
+          "location": "P\u014dneke Wellington, Aotearoa New Zealand",
+          "company": "@sustainers",
+          "commit_count": 38,
           "is_new": false
-        },
-        {
-          "name": "Sunilshah-7",
-          "location": "Arlington, VA",
-          "company": "George Washington University",
-          "commit_count": 9,
-          "is_new": true
-        },
-        {
-          "name": "elyazidine",
-          "location": null,
-          "company": null,
-          "commit_count": 12,
-          "is_new": true
         },
         {
           "name": "CharlotteCurioss",
           "location": null,
           "company": null,
-          "commit_count": 44,
+          "commit_count": 95,
           "is_new": true
         },
         {
           "name": "CiaraFlanagan",
           "location": null,
           "company": null,
-          "commit_count": 94,
+          "commit_count": 157,
           "is_new": false
         }
       ],
-      "committer_count": 9,
+      "committer_count": 13,
       "stargazers_count": 0,
       "watchers_count": 0,
       "forks_count": 0,
@@ -663,18 +704,532 @@
       "forks_count": 0,
       "merged_pr_count": 0,
       "data_complete": true
+    },
+    {
+      "name": "Markdown-viewer",
+      "url": "https://github.com/gw-ospo/Markdown-viewer",
+      "description": "Simple project to help view markdown files",
+      "errors": [],
+      "total_commit_count": 0,
+      "commits_per_week": {},
+      "contributors": [],
+      "committer_count": 0,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "canis_lupus2.0",
+      "url": "https://github.com/barah123/canis_lupus2.0",
+      "description": "CanisLupus2.0 is a user-friendly, web-based tool designed for researchers and bioinformaticians to explore, analyze, and visualize microbiome datasets. Built with R, Shiny, and phyloseq, this app allows users to upload their own data (ASV tables, taxonomy, metadata, and phylogenetic trees) and perform comprehensive analyses.",
+      "errors": [],
+      "total_commit_count": 56,
+      "commits_per_week": {
+        "2026-W26": 7,
+        "2025-W33": 15,
+        "2025-W43": 24,
+        "2026-W01": 5,
+        "2026-W09": 5
+      },
+      "contributors": [
+        {
+          "name": "claude",
+          "location": null,
+          "company": "@anthropics",
+          "commit_count": 3,
+          "is_new": true
+        },
+        {
+          "name": "barah123",
+          "location": "United States of America",
+          "company": "GW University ",
+          "commit_count": 53,
+          "is_new": true
+        }
+      ],
+      "committer_count": 2,
+      "stargazers_count": 2,
+      "watchers_count": 0,
+      "forks_count": 2,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "danger-detection-with-ml",
+      "url": "https://github.com/Kalaga-Studio/danger-detection-with-ml",
+      "description": "A real-time security system using ML to detect firearms and fire hazards through video feeds. It sends instant email alerts with captured images when threats are detected, offering automated 24/7 monitoring for schools, offices, and public spaces.",
+      "errors": [],
+      "total_commit_count": 0,
+      "commits_per_week": {},
+      "contributors": [],
+      "committer_count": 0,
+      "stargazers_count": 4,
+      "watchers_count": 1,
+      "forks_count": 0,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "Skill-Extraction-Tool-with-Reasoning",
+      "url": "https://github.com/sameerbatra1/Skill-Extraction-Tool-with-Reasoning",
+      "description": null,
+      "errors": [],
+      "total_commit_count": 10,
+      "commits_per_week": {
+        "2025-W41": 5,
+        "2025-W42": 4,
+        "2026-W01": 1
+      },
+      "contributors": [
+        {
+          "name": "sameerbatra1",
+          "location": null,
+          "company": null,
+          "commit_count": 10,
+          "is_new": false
+        }
+      ],
+      "committer_count": 1,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "deepbreaks",
+      "url": "https://github.com/omicsEye/deepbreaks",
+      "description": "deepBreaks , a computational method, aims to identify important changes in association with the phenotype of interest using multi-alignment sequencing data from a population.",
+      "errors": [],
+      "total_commit_count": 2,
+      "commits_per_week": {
+        "2025-W40": 1,
+        "2025-W41": 1
+      },
+      "contributors": [
+        {
+          "name": "grahnavard",
+          "location": "Washington DC",
+          "company": "George Washington University",
+          "commit_count": 1,
+          "is_new": false
+        },
+        {
+          "name": "mahdibaghbanzadeh",
+          "location": null,
+          "company": null,
+          "commit_count": 1,
+          "is_new": false
+        }
+      ],
+      "committer_count": 2,
+      "stargazers_count": 12,
+      "watchers_count": 1,
+      "forks_count": 3,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "surveydown",
+      "url": "https://github.com/surveydown-dev/surveydown",
+      "description": "Markdown-Based, Programmable Surveys Using R, Quarto, Shiny, and PostgreSQL",
+      "errors": [],
+      "total_commit_count": 191,
+      "commits_per_week": {
+        "2025-W46": 21,
+        "2026-W08": 3,
+        "2026-W22": 29,
+        "2025-W30": 12,
+        "2025-W31": 1,
+        "2025-W32": 1,
+        "2025-W33": 2,
+        "2025-W38": 11,
+        "2025-W42": 1,
+        "2025-W43": 2,
+        "2025-W49": 1,
+        "2025-W51": 7,
+        "2026-W02": 17,
+        "2026-W03": 4,
+        "2026-W21": 1,
+        "2026-W23": 1,
+        "2026-W24": 1,
+        "2025-W35": 8,
+        "2025-W36": 2,
+        "2025-W39": 3,
+        "2025-W44": 20,
+        "2025-W45": 26,
+        "2026-W01": 9,
+        "2026-W04": 3,
+        "2026-W06": 1,
+        "2026-W07": 1,
+        "2026-W13": 3
+      },
+      "contributors": [
+        {
+          "name": "dylanpieper",
+          "location": "Madison, WI",
+          "company": null,
+          "commit_count": 4,
+          "is_new": true
+        },
+        {
+          "name": "durraniu",
+          "location": null,
+          "company": null,
+          "commit_count": 4,
+          "is_new": true
+        },
+        {
+          "name": "claude",
+          "location": null,
+          "company": "@anthropics",
+          "commit_count": 6,
+          "is_new": true
+        },
+        {
+          "name": "jhelvy",
+          "location": "Washington, D.C.",
+          "company": "George Washington University",
+          "commit_count": 52,
+          "is_new": false
+        },
+        {
+          "name": "pingfan-hu",
+          "location": "Melbourne, VIC, Australia",
+          "company": "George Washington University",
+          "commit_count": 125,
+          "is_new": false
+        }
+      ],
+      "committer_count": 5,
+      "stargazers_count": 183,
+      "watchers_count": 5,
+      "forks_count": 24,
+      "merged_pr_count": 18,
+      "data_complete": true
+    },
+    {
+      "name": "SimLogger",
+      "url": "https://github.com/joey-kilgore/SimLogger",
+      "description": "Logger and python data archiving",
+      "errors": [],
+      "total_commit_count": 0,
+      "commits_per_week": {},
+      "contributors": [],
+      "committer_count": 0,
+      "stargazers_count": 9,
+      "watchers_count": 1,
+      "forks_count": 1,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "python-camp",
+      "url": "https://github.com/gwu-libraries/python-camp",
+      "description": "Repo for lessons, homework, and course dev materials",
+      "errors": [],
+      "total_commit_count": 14,
+      "commits_per_week": {
+        "2025-W41": 4,
+        "2025-W50": 4,
+        "2026-W09": 6
+      },
+      "contributors": [
+        {
+          "name": "dolsysmith",
+          "location": null,
+          "company": "@gwu-libraries",
+          "commit_count": 14,
+          "is_new": false
+        }
+      ],
+      "committer_count": 1,
+      "stargazers_count": 4,
+      "watchers_count": 3,
+      "forks_count": 4,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "smt",
+      "url": "https://github.com/SMTorg/smt",
+      "description": "SMT: The Surrogate Modeling Toolbox",
+      "errors": [],
+      "total_commit_count": 82,
+      "commits_per_week": {
+        "2026-W07": 10,
+        "2025-W48": 2,
+        "2026-W22": 4,
+        "2026-W00": 2,
+        "2026-W06": 11,
+        "2026-W17": 7,
+        "2026-W09": 9,
+        "2026-W13": 3,
+        "2025-W32": 9,
+        "2025-W38": 5,
+        "2026-W05": 2,
+        "2026-W08": 5,
+        "2025-W34": 2,
+        "2026-W19": 3,
+        "2025-W33": 1,
+        "2025-W36": 1,
+        "2025-W42": 2,
+        "2025-W46": 1,
+        "2026-W14": 1,
+        "2026-W24": 2
+      },
+      "contributors": [
+        {
+          "name": "assunc",
+          "location": null,
+          "company": null,
+          "commit_count": 1,
+          "is_new": true
+        },
+        {
+          "name": "shb84",
+          "location": "Atlanta ",
+          "company": "Georgia Tech Research Institute",
+          "commit_count": 1,
+          "is_new": false
+        },
+        {
+          "name": "enricostragiotti",
+          "location": "Toulouse",
+          "company": "Onera",
+          "commit_count": 1,
+          "is_new": false
+        },
+        {
+          "name": "mcastanoUQ",
+          "location": null,
+          "company": null,
+          "commit_count": 3,
+          "is_new": false
+        },
+        {
+          "name": "NatOnera",
+          "location": null,
+          "company": null,
+          "commit_count": 3,
+          "is_new": false
+        },
+        {
+          "name": "dependabot[bot]",
+          "location": null,
+          "company": null,
+          "commit_count": 11,
+          "is_new": false
+        },
+        {
+          "name": "Paul-Saves",
+          "location": null,
+          "company": null,
+          "commit_count": 12,
+          "is_new": false
+        },
+        {
+          "name": "relf",
+          "location": "Toulouse, France",
+          "company": "ONERA",
+          "commit_count": 50,
+          "is_new": false
+        }
+      ],
+      "committer_count": 8,
+      "stargazers_count": 915,
+      "watchers_count": 24,
+      "forks_count": 231,
+      "merged_pr_count": 54,
+      "data_complete": true
+    },
+    {
+      "name": "EGRET",
+      "url": "https://github.com/Jithendra-k/EGRET",
+      "description": "Emotion Graph-Enhanced Response Generation with Transformative preference learning",
+      "errors": [],
+      "total_commit_count": 0,
+      "commits_per_week": {},
+      "contributors": [],
+      "committer_count": 0,
+      "stargazers_count": 1,
+      "watchers_count": 1,
+      "forks_count": 1,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "logitr",
+      "url": "https://github.com/jhelvy/logitr",
+      "description": "Fast estimation of multinomial (MNL) and mixed logit (MXL) models in R with \"Preference\" space or \"Willingness-to-pay\" (WTP) space utility parameterizations in R",
+      "errors": [],
+      "total_commit_count": 29,
+      "commits_per_week": {
+        "2026-W25": 17,
+        "2025-W35": 1,
+        "2025-W36": 1,
+        "2025-W44": 2,
+        "2025-W49": 1,
+        "2026-W26": 7
+      },
+      "contributors": [
+        {
+          "name": "claude",
+          "location": null,
+          "company": "@anthropics",
+          "commit_count": 1,
+          "is_new": true
+        },
+        {
+          "name": "jhelvy",
+          "location": "Washington, D.C.",
+          "company": "George Washington University",
+          "commit_count": 28,
+          "is_new": false
+        }
+      ],
+      "committer_count": 2,
+      "stargazers_count": 63,
+      "watchers_count": 7,
+      "forks_count": 17,
+      "merged_pr_count": 3,
+      "data_complete": true
+    },
+    {
+      "name": "renderthis",
+      "url": "https://github.com/jhelvy/renderthis",
+      "description": "An R package for building xaringan slides into multiple outputs, including html, pdf, png, gif, pptx, and mp4.",
+      "errors": [],
+      "total_commit_count": 0,
+      "commits_per_week": {},
+      "contributors": [],
+      "committer_count": 0,
+      "stargazers_count": 178,
+      "watchers_count": 2,
+      "forks_count": 13,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "cbcTools",
+      "url": "https://github.com/jhelvy/cbcTools",
+      "description": "R package of comprehensive tools for designing and analyzing choice-based conjoint (cbc) experiments",
+      "errors": [],
+      "total_commit_count": 46,
+      "commits_per_week": {
+        "2025-W30": 9,
+        "2025-W31": 3,
+        "2025-W33": 1,
+        "2025-W36": 1,
+        "2025-W37": 11,
+        "2025-W38": 4,
+        "2025-W39": 9,
+        "2025-W40": 1,
+        "2025-W41": 5,
+        "2025-W42": 1,
+        "2026-W24": 1
+      },
+      "contributors": [
+        {
+          "name": "jhelvy",
+          "location": "Washington, D.C.",
+          "company": "George Washington University",
+          "commit_count": 46,
+          "is_new": false
+        }
+      ],
+      "committer_count": 1,
+      "stargazers_count": 11,
+      "watchers_count": 3,
+      "forks_count": 6,
+      "merged_pr_count": 4,
+      "data_complete": true
+    },
+    {
+      "name": "pyGIS",
+      "url": "https://github.com/mmann1123/pyGIS",
+      "description": "pyGIS is an online textbook covering all the core geospatial functionality available in Python. This includes handling vector and raster data, satellite remote sensing, machine learning and deep learning applications. ",
+      "errors": [],
+      "total_commit_count": 10,
+      "commits_per_week": {
+        "2025-W36": 2,
+        "2025-W37": 3,
+        "2026-W15": 5
+      },
+      "contributors": [
+        {
+          "name": "mmann1123",
+          "location": "Washington DC",
+          "company": "The George Washington University",
+          "commit_count": 10,
+          "is_new": false
+        }
+      ],
+      "committer_count": 1,
+      "stargazers_count": 197,
+      "watchers_count": 4,
+      "forks_count": 37,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "AeroPython",
+      "url": "https://github.com/barbagroup/AeroPython",
+      "description": "Classical Aerodynamics of potential flow using Python and Jupyter Notebooks",
+      "errors": [],
+      "total_commit_count": 0,
+      "commits_per_week": {},
+      "contributors": [],
+      "committer_count": 0,
+      "stargazers_count": 1015,
+      "watchers_count": 96,
+      "forks_count": 534,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "CFDPython",
+      "url": "https://github.com/barbagroup/CFDPython",
+      "description": "A sequence of Jupyter notebooks featuring the \"12 Steps to Navier-Stokes\" http://lorenabarba.com/  ",
+      "errors": [],
+      "total_commit_count": 0,
+      "commits_per_week": {},
+      "contributors": [],
+      "committer_count": 0,
+      "stargazers_count": 4165,
+      "watchers_count": 268,
+      "forks_count": 1332,
+      "merged_pr_count": 0,
+      "data_complete": true
+    },
+    {
+      "name": "gwu-courses-py",
+      "url": "https://github.com/s2t2/gwu-courses-py",
+      "description": null,
+      "errors": [],
+      "total_commit_count": 0,
+      "commits_per_week": {},
+      "contributors": [],
+      "committer_count": 0,
+      "stargazers_count": 1,
+      "watchers_count": 1,
+      "forks_count": 0,
+      "merged_pr_count": 0,
+      "data_complete": true
     }
   ],
   "top_repos_by_commits": [
     "curioss-patterns",
+    "surveydown",
+    "smt",
+    "canis_lupus2.0",
+    "cbcTools",
     "open-source-workshop",
+    "logitr",
     "C4GT",
-    "year-in-review",
-    "os-challenge",
-    "gw-open-source-stickers",
-    ".github",
-    "jupyter-book-template",
-    "community",
-    "oss-licensing"
+    "python-camp",
+    "Skill-Extraction-Tool-with-Reasoning"
   ]
 }
